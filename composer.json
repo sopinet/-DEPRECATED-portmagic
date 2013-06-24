@@ -1,0 +1,24 @@
+{
+    "name": "sopinet/portmagic",
+    "description": "PortMagic is core library for get information from Urls",
+    "keywords": ["portmagic", "portfolio", "web"],
+    "homepage": "https://github.com/sopinet/portmagic",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Hidalgo",
+            "email": "fhidalgo@sopinet.com",
+            "homepage": "http://sopinet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "kriswallsmith/buzz": "0.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sopinet\\PortMagic\\": "lib/"
+        }
+    }
+}
